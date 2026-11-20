@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Initial version<br>Accepted on Go in RC-004 | pending |
+| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Initial version<br>Accepted on Go in RC-004 | [0f493f4] |
 
 ---
 
@@ -113,3 +113,4 @@ A No-Go at a gateway stops the later gateways. The gateway is reworked and decid
 [MIL-004]: ./milestones/mil-004-step-2-timer-and-typing.md
 [MIL-005]: ./milestones/mil-005-step-3-result.md
 [MIL-006]: ./milestones/mil-006-step-4-trainer.md
+[0f493f4]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/086-assignment-typing-speed-test/commit/0f493f4af963132d34a8a932f4984e783dc36894

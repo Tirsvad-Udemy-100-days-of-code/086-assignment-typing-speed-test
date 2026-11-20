@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Initial version<br>Accepted on Go in RC-001 | pending |
+| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Initial version<br>Accepted on Go in RC-001 | [0f493f4] |
 
 ---
 
@@ -163,3 +163,4 @@ Proceed — the scope is small and well bounded, the risks have mitigations, and
 [S01]: ./stakeholder-analysis.md#stakeholder-summary-table
 [S02]: ./stakeholder-analysis.md#stakeholder-summary-table
 [S03]: ./stakeholder-analysis.md#stakeholder-summary-table
+[0f493f4]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/086-assignment-typing-speed-test/commit/0f493f4af963132d34a8a932f4984e783dc36894
