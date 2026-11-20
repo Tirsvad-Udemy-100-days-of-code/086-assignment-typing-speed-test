@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Initial version<br>Accepted on Go in RC-022 | pending |
+| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Initial version<br>Accepted on Go in RC-022 | [a388508] |
 
 ---
 
@@ -154,3 +154,4 @@ Terms are the IT terms of [DICT-001]. The affected concepts are those of [DM-001
 [SSD-001]: ./ssd.md
 [DICT-001]: ../../dictionary.md
 [DM-001]: ./dm.md
+[a388508]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/086-assignment-typing-speed-test/commit/a388508748c9a53f3406d8634714e2d0caba7220

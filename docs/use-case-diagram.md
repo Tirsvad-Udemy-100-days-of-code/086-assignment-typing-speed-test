@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Initial version<br>Accepted on Go in RC-018 | pending |
+| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Initial version<br>Accepted on Go in RC-018 | [a388508] |
 
 ---
 
@@ -62,3 +62,4 @@ Not applicable: there is one primary actor, so there is no role to separate and 
 [BC-001]: ./business-case.md
 [US-001]: ./user-stories.md
 [UC-001]: use-cases/uc-001/uc.md
+[a388508]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/086-assignment-typing-speed-test/commit/a388508748c9a53f3406d8634714e2d0caba7220
