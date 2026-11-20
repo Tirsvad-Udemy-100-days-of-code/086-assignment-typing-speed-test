@@ -1,0 +1,54 @@
+# Rules of the local security scan. opengrep reads this file when scripts/check.sh runs
+# it before every push (see README, section Tests, and MIL-001 task 8).
+---
+rules:
+  - id: python-no-eval-or-exec
+    languages: [python]
+    severity: ERROR
+    message: eval and exec run arbitrary code; use a safe parser instead.
+    pattern-either:
+      - pattern: eval(...)
+      - pattern: exec(...)
+  - id: python-subprocess-shell-true
+    languages: [python]
+    severity: ERROR
+    message: shell=True lets input become a shell command.
+    pattern: subprocess.$FUNC(..., shell=True, ...)
+  - id: python-no-pickle-load
+    languages: [python]
+    severity: WARNING
+    message: pickle loads can run code from an untrusted file.
+    pattern-either:
+      - pattern: pickle.load(...)
+      - pattern: pickle.loads(...)
+  - id: python-no-yaml-unsafe-load
+    languages: [python]
+    severity: WARNING
+    message: yaml.load without a safe loader can build arbitrary objects.
+    pattern: yaml.load(...)
+  - id: python-no-hardcoded-secret
+    languages: [python]
+    severity: ERROR
+    message: A secret looks hard-coded; read it from the environment instead.
+    patterns:
+      - pattern: $NAME = "..."
+      - metavariable-regex:
+          metavariable: $NAME
+          regex: (?i).*(password|secret|api_?key|token).*
+  - id: python-no-bare-except
+    languages: [python]
+    severity: WARNING
+    message: A bare except hides errors; catch a specific exception.
+    pattern: |
+      try:
+          ...
+      except:
+          ...
+  - id: python-no-print
+    languages: [python]
+    severity: WARNING
+    message: Use logging instead of print.
+    pattern: print(...)
+    paths:
+      include:
+        - src/
