@@ -7,5 +7,6 @@ Aplikasi desktop kecil yang menguji kelajuan anda menaip: ia menunjukkan teks co
 | Halaman | Baca apabila anda mahu |
 | --- | --- |
 | [Persediaan](Setup-ms) | mencipta `.venv` setempat, memasang projek, menjalankan program dan ujian |
+| [Langkah 1: tetingkap dan teks contoh](Step-1-Window-And-Text-ms) | lihat apa yang dibina langkah 1 |
 
 Halaman langkah ditambah apabila setiap langkah dibina. Kod sumber, fail README dan dokumen projek berada dalam repositori.

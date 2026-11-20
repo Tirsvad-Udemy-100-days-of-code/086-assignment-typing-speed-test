@@ -9,6 +9,7 @@ A desktop application that tests how fast you type: it shows a sample text, time
 - [Setup](#-setup)
 - [Run](#-run)
 - [Tests](#-tests)
+- [Steps](#-steps)
 - [License](#-license)
 - [Links](#-links)
 - [Appendix: Project documents](#-appendix-project-documents)
@@ -97,6 +98,20 @@ bash scripts/run-gui-tests.sh python -m pytest -m gui
 
 Build the source manual with `doxygen Doxyfile`; it is written to `build/doxygen/index.html`.
 
+## 🪟 Steps
+
+Each step has screenshots made in a Linux container and a wiki page that explains what it taught.
+
+### 🪟 Step 1: window and sample text
+
+`start_test` chooses a sample text and the window shows it with an empty input field. The time does not run until you type.
+
+![The window as it opens](docs/screenshots/step-1-window.png)
+
+![The input field has the focus](docs/screenshots/step-1-text.png)
+
+Wiki: [Step 1][step-1].
+
 ## 📄 License
 
 GNU Affero General Public License, version 3. See the [LICENSE][license] file.
@@ -131,6 +146,7 @@ The documents a newcomer needs, in reading order.
 [tkinter]: https://docs.python.org/3/library/tkinter.html
 [web-version]: https://typing-speed-test.aoeu.eu/
 [license]: ./LICENSE
+[step-1]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/086-assignment-typing-speed-test/wiki/Step-1-Window-And-Text
 [BC-001]: ./docs/business-case.md
 [SA-001]: ./docs/stakeholder-analysis.md
 [PP-001]: ./docs/project-plan.md

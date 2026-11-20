@@ -7,5 +7,6 @@ Et lille desktopprogram, der tester, hvor hurtigt du skriver: det viser en eksem
 | Side | Læs den, når du vil |
 | --- | --- |
 | [Opsætning](Setup-da) | oprette et lokalt `.venv`, installere projektet og køre programmet og testene |
+| [Trin 1: vindue og eksempeltekst](Step-1-Window-And-Text-da) | se, hvad trin 1 byggede |
 
 Siderne om trinnene tilføjes, efterhånden som hvert trin bygges. Kildekoden, README-filen og projektdokumenterne ligger i repositoriet.
