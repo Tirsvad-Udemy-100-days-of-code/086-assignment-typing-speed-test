@@ -8,5 +8,6 @@ Et lille desktopprogram, der tester, hvor hurtigt du skriver: det viser en eksem
 | --- | --- |
 | [Opsætning](Setup-da) | oprette et lokalt `.venv`, installere projektet og køre programmet og testene |
 | [Trin 1: vindue og eksempeltekst](Step-1-Window-And-Text-da) | se, hvad trin 1 byggede |
+| [Trin 2: timer og indtastning](Step-2-Timer-And-Typing-da) | se, hvordan timeren og den levende tilbagemelding virker |
 
 Siderne om trinnene tilføjes, efterhånden som hvert trin bygges. Kildekoden, README-filen og projektdokumenterne ligger i repositoriet.
