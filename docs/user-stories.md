@@ -4,14 +4,15 @@
 | Key | Value |
 | --- | --- |
 | ID | US-001 |
-| CrossReference | [BC-001], [MIL-003], [MIL-004], [MIL-005], [MIL-006] |
+| CrossReference | [BC-001], [UCD-001], [UC-001], [MIL-003], [MIL-004], [MIL-005], [MIL-006] |
 | Language | en |
 | Domain | it |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Initial version<br>Accepted on Go in RC-003 | [0f493f4] |
+| 2026-11-20 | Deprecated | Jens Tirsvad Nielsen | Stand-in for S01 | Initial version<br>Accepted on Go in RC-003 | [0f493f4] |
+| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Added UCD-001 and UC-001 to the CrossReference<br>Accepted on Go in RC-028 | pending |
 
 ---
 
@@ -132,6 +133,8 @@ Each story is Independent (US-001.02 needs US-001.01 only as a window), Negotiab
 ---
 
 [BC-001]: ./business-case.md
+[UCD-001]: ./use-case-diagram.md
+[UC-001]: ./use-cases/uc-001/uc.md
 [MIL-003]: ./milestones/mil-003-step-1-window-and-text.md
 [MIL-004]: ./milestones/mil-004-step-2-timer-and-typing.md
 [MIL-005]: ./milestones/mil-005-step-3-result.md
