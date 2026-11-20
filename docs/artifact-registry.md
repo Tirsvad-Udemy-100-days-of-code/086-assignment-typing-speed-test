@@ -17,7 +17,16 @@ document of a type. `Primary File` may contain a glob (e.g.
 | PP | Project Plan | docs/project-plan.md | 002 |
 | MIL | Milestone / Gateway | docs/milestones/*.md | 007 |
 | ADR | Architecture Decision Record | docs/adr/adr-NNNN-*.md | 0005 |
-| RC | SQA Review Record | docs/sqa/reviews/rc-*.md | 018 |
+| RC | SQA Review Record | docs/sqa/reviews/rc-*.md | 029 |
+| UCD | Use Case Diagram | docs/use-case-diagram.md | 002 |
+| UC | Use Case (Brief/Casual/Fully Dressed) | docs/use-cases/uc-*/uc.md | 002 |
+| DM | Domain Model | docs/domain-model.md | 003 |
+| SSD | System Sequence Diagram | docs/use-cases/uc-*/ssd.md | 002 |
+| OC | Operation Contract | docs/use-cases/uc-*/oc.md | 002 |
+| SD | Sequence Diagram | docs/use-cases/uc-*/sd.md | 002 |
+| DCD | Design Class Diagram | docs/dcd.md | 003 |
+| DICT | Domain Dictionary (PO and IT terms) | docs/dictionary.md | 002 |
+| TM | Traceability Matrix | docs/sqa/traceability-matrix.md | 002 |
 
 ## Languages
 

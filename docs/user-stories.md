@@ -4,14 +4,15 @@
 | Key | Value |
 | --- | --- |
 | ID | US-001 |
-| CrossReference | [BC-001], [MIL-003], [MIL-004], [MIL-005], [MIL-006] |
+| CrossReference | [BC-001], [UCD-001], [UC-001], [MIL-003], [MIL-004], [MIL-005], [MIL-006] |
 | Language | en |
 | Domain | it |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Initial version<br>Accepted on Go in RC-003 | [0f493f4] |
+| 2026-11-20 | Deprecated | Jens Tirsvad Nielsen | Stand-in for S01 | Initial version<br>Accepted on Go in RC-003 | [0f493f4] |
+| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Added UCD-001 and UC-001 to the CrossReference<br>Accepted on Go in RC-028 | [a388508] |
 
 ---
 
@@ -132,8 +133,11 @@ Each story is Independent (US-001.02 needs US-001.01 only as a window), Negotiab
 ---
 
 [BC-001]: ./business-case.md
+[UCD-001]: ./use-case-diagram.md
+[UC-001]: ./use-cases/uc-001/uc.md
 [MIL-003]: ./milestones/mil-003-step-1-window-and-text.md
 [MIL-004]: ./milestones/mil-004-step-2-timer-and-typing.md
 [MIL-005]: ./milestones/mil-005-step-3-result.md
 [MIL-006]: ./milestones/mil-006-step-4-trainer.md
 [0f493f4]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/086-assignment-typing-speed-test/commit/0f493f4af963132d34a8a932f4984e783dc36894
+[a388508]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/086-assignment-typing-speed-test/commit/a388508748c9a53f3406d8634714e2d0caba7220
