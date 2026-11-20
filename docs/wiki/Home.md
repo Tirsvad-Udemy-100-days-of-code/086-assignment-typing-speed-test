@@ -7,5 +7,6 @@ A small desktop application that tests how fast you type: it shows a sample text
 | Page | Read it when you want to |
 | --- | --- |
 | [Setup](Setup) | create a local `.venv`, install the project, run the program and the tests |
+| [Step 1: window and sample text](Step-1-Window-And-Text) | see what step 1 built |
 
 The step pages are added as each step is built. The source, the README and the project documents are in the repository.
