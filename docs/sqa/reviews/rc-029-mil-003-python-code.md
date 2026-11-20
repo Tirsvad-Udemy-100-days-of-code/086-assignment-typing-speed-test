@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Review record; mode autonomous, not independent | pending |
+| 2026-11-20 | Accepted | Jens Tirsvad Nielsen | Stand-in for S01 | Review record; mode autonomous, not independent | [beefe6c] |
 
 ---
 
@@ -59,3 +59,4 @@ Go — every Mandatory criterion passes; no action items
 
 [MIL-003]: ../../milestones/mil-003-step-1-window-and-text.md
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
+[beefe6c]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/086-assignment-typing-speed-test/commit/beefe6c8697bf2dc6ea4a4c09caae4a1f468ca9d
