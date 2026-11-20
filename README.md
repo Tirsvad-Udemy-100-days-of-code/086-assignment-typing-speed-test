@@ -112,6 +112,16 @@ Each step has screenshots made in a Linux container and a wiki page that explain
 
 Wiki: [Step 1][step-1].
 
+### 🪟 Step 2: timer and typing
+
+The time starts with the first character. Right characters turn green, wrong ones red, and the status line counts down from 60 seconds. When the text is complete or the time is over, the input is locked.
+
+![Typing with one mistake](docs/screenshots/step-2-typing.png)
+
+![The finished test](docs/screenshots/step-2-finished.png)
+
+Wiki: [Step 2][step-2].
+
 ## 📄 License
 
 GNU Affero General Public License, version 3. See the [LICENSE][license] file.
@@ -146,6 +156,7 @@ The documents a newcomer needs, in reading order.
 [tkinter]: https://docs.python.org/3/library/tkinter.html
 [web-version]: https://typing-speed-test.aoeu.eu/
 [license]: ./LICENSE
+[step-2]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/086-assignment-typing-speed-test/wiki/Step-2-Timer-And-Typing
 [step-1]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/086-assignment-typing-speed-test/wiki/Step-1-Window-And-Text
 [BC-001]: ./docs/business-case.md
 [SA-001]: ./docs/stakeholder-analysis.md

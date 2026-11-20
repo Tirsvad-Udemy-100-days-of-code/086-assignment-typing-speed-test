@@ -49,5 +49,41 @@ INPUT_FONT: Final[tuple[str, int]] = ("DejaVu Sans", 16)
 ## @brief Font of the status line, as family, size.
 STATUS_FONT: Final[tuple[str, int]] = ("DejaVu Sans", 12)
 
-## @brief Width at which the sample text wraps, in pixels.
-SAMPLE_TEXT_WRAP_LENGTH: Final[int] = 680
+## @brief Width of the sample text box, in characters.
+SAMPLE_TEXT_WIDTH_CHARS: Final[int] = 60
+
+## @brief Height of the sample text box, in lines.
+SAMPLE_TEXT_HEIGHT_LINES: Final[int] = 4
+
+## @brief Status line while the test runs; `{seconds}` is the whole seconds left.
+STATUS_RUNNING_TEMPLATE: Final[str] = "{seconds} s left"
+
+## @brief Status line when the test has ended.
+STATUS_FINISHED_TEXT: Final[str] = "Time is up or the text is complete - finished"
+
+## @brief Milliseconds between two looks at the clock while a test runs.
+TIMER_INTERVAL_MS: Final[int] = 200
+
+## @brief Name of the text tag of a correctly typed character.
+TAG_CORRECT: Final[str] = "correct"
+
+## @brief Name of the text tag of a wrongly typed character.
+TAG_WRONG: Final[str] = "wrong"
+
+## @brief Name of the text tag of a character not typed yet.
+TAG_PENDING: Final[str] = "pending"
+
+## @brief Text colour of a correctly typed character.
+COLOR_CORRECT_FOREGROUND: Final[str] = "#1b7f1b"
+
+## @brief Text colour of a wrongly typed character.
+COLOR_WRONG_FOREGROUND: Final[str] = "#b00020"
+
+## @brief Background colour of a wrongly typed character.
+COLOR_WRONG_BACKGROUND: Final[str] = "#f9d6d9"
+
+## @brief Text colour of a character not typed yet.
+COLOR_PENDING_FOREGROUND: Final[str] = "#555555"
+
+## @brief Background colour of the sample text box.
+COLOR_SAMPLE_BACKGROUND: Final[str] = "#f4f4f4"
